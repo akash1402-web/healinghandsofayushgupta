@@ -14,17 +14,14 @@ import OldCara from '../components/Home/Carousel/OldCara';
 const Home = () => {
     return (
         <>
-            <div className='container md:px-[30px] px-[10px]'>
-                <Hero />
-                {/* <MyCarousel /> */}
-                <OldCara />
-                <Cards />
-                <Service />
-                <About />
-                <Testimonial />
-                <Publication />
-            </div>
-
+            <Hero />
+            {/* <MyCarousel /> */}
+            <OldCara />
+            <Cards />
+            <Service />
+            <About />
+            <Testimonial />
+            <Publication />
         </>
     )
 }

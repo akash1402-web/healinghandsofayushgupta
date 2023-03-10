@@ -62,7 +62,7 @@ const About = () => {
 
         // </div>
 
-        <div className='w-full md:px-[82px] px-[20px] md:gap-40 md:justify-between xl:justify-center flex flex-col lg:flex-row items-center md:mt-20 bg-rect bg-no-repeat bg-cover '>
+        <div className='w-full md:gap-40 md:justify-between xl:justify-center flex flex-col lg:flex-row items-center md:mt-20 bg-rect bg-no-repeat bg-cover '>
             <div className='flex flex-col md:gap-2 max-w-[600px] mt-20 md:mt-0 md:text-left text-center items-center md:items-start'>
                 <img src={homeabout} alt="about-logo" className='md:mr-20 md:block hidden ' />
             </div>
