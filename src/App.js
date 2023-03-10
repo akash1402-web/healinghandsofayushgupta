@@ -1,4 +1,3 @@
-
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
@@ -13,31 +12,26 @@ import TarrotCard from "./components/Numerology/TarrotCard";
 function App() {
   return (
     <>
-
-      <Navbar />
-      <Routes>
-        <Route path="/" element={<Home></Home>}>
-        </Route>
-        <Route path="/about" element={<About></About>}>
-        </Route>
-        <Route path="/blogs" element={<Blogs></Blogs>}>
-        </Route>
-        <Route path="/services" element={<Service></Service>}>
-        </Route>
-        <Route path="/numerology" element={<Numerology></Numerology>}>
-        </Route>
-        <Route path="/raikiheal" element={<RaikiHeal></RaikiHeal>}>
-        </Route>
-        {/* <Route path="/footer" element={<Footer></Footer>}>
+      <div className="container mx-auto">
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home></Home>}></Route>
+          <Route path="/about" element={<About></About>}></Route>
+          <Route path="/blogs" element={<Blogs></Blogs>}></Route>
+          <Route path="/services" element={<Service></Service>}></Route>
+          <Route path="/numerology" element={<Numerology></Numerology>}></Route>
+          <Route path="/raikiheal" element={<RaikiHeal></RaikiHeal>}></Route>
+          {/* <Route path="/footer" element={<Footer></Footer>}>
         </Route> */}
-        <Route path="/tarrotcard" element={<TarrotCard></TarrotCard>}>
-        </Route>
-        <Route path="/publication" element={<Publication></Publication>}>
-        </Route>
-      </Routes>
-      <Footer />
+          <Route path="/tarrotcard" element={<TarrotCard></TarrotCard>}></Route>
+          <Route
+            path="/publication"
+            element={<Publication></Publication>}
+          ></Route>
+        </Routes>
+        <Footer />
+      </div>
     </>
-
   );
 }
 

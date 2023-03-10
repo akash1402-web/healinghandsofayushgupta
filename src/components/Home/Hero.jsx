@@ -29,8 +29,8 @@ const Hero = () => {
             </section> */}
 
             <section className='w-full lg:justify-between flex flex-col lg:flex-row items-center bg-rect bg-cover bg-no-repeat'  >
-                <div className='flex flex-col md:gap-2 max-w-[600px] mt-20 md:mt-0 md:text-left text-center items-center md:items-start'>
-                    <h1 className='text-3xl md:text-6xl font-bold md:leading-[80px] text-[#282828] '>
+                <div className='flex flex-col md:gap-2 max-w-[600px] mt-20 md:mt-0 md:text-left text-center items-center md:items-start px-[8px]'>
+                    <h1 className='text-3xl md:text-6xl font-bold md:leading-[80px] text-[#282828]'>
                         Watch your breath
                         Relax your mind
                     </h1>
