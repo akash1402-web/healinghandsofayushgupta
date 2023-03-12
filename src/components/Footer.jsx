@@ -43,7 +43,7 @@ const Footer = () => {
 
                 </div>
                 <div className='flex-col text-2xl font-[600px] text-white lg:block hidden'>
-                    Follow US On
+                    Follow us on
                     <div className='flex justify-center gap-10 mt-[14px]'>
                         <img src={twitter} alt="twitter-logo"></img>
                         <img src={facebook} alt="facebook-logo"></img>

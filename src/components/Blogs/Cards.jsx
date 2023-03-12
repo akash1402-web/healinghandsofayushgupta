@@ -3,7 +3,7 @@ import Card from './Card';
 
 const Cards = () => {
   return (
-    <div className='flex flex-wrap justify-between md:mt-[60px] mt-[40px] md:gap-y-16 gap-y-6'>
+    <div className='flex flex-wrap justify-center xl:justify-between gap-3 md:gap-6 md:gap-y-16'>
       <Card />
       <Card />
       <Card />
@@ -13,7 +13,6 @@ const Cards = () => {
       <Card />
       <Card />
       <Card />
-
     </div>
   )
 }
