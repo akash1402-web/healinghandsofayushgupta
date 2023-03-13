@@ -9,28 +9,24 @@ import Numerology from "./components/Numerology/Numerology";
 import RaikiHeal from "./components/Numerology/RaikiHeal";
 import Publication from "./components/Publication/Publication";
 import TarrotCard from "./components/Numerology/TarrotCard";
+import Gallery from "./components/Gallery/Gallery";
+
 function App() {
   return (
     <>
-      <div className="container mx-auto">
-        <Navbar />
-        <Routes>
-          <Route path="/" element={<Home></Home>}></Route>
-          <Route path="/about" element={<About></About>}></Route>
-          <Route path="/blogs" element={<Blogs></Blogs>}></Route>
-          <Route path="/services" element={<Service></Service>}></Route>
-          <Route path="/numerology" element={<Numerology></Numerology>}></Route>
-          <Route path="/raikiheal" element={<RaikiHeal></RaikiHeal>}></Route>
-          {/* <Route path="/footer" element={<Footer></Footer>}>
-        </Route> */}
-          <Route path="/tarrotcard" element={<TarrotCard></TarrotCard>}></Route>
-          <Route
-            path="/publication"
-            element={<Publication></Publication>}
-          ></Route>
-        </Routes>
-        <Footer />
-      </div>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/gallery" element={<Gallery />} />
+        <Route path="/blogs" element={<Blogs />} />
+        <Route path="/services" element={<Service />} />
+        <Route path="/numerology" element={<Numerology />} />
+        <Route path="/raikiheal" element={<RaikiHeal />} />
+        <Route path="/tarrotcard" element={<TarrotCard />} />
+        <Route path="/publication" element={<Publication />} />
+      </Routes>
+      <Footer />
     </>
   );
 }

@@ -7,12 +7,28 @@ import RaikiHeal from '../components/OurService/RaikiHeal';
 
 const Service = () => {
     return (
-        <div>
-            <ServiceHeader />
-            <RaikiHeal />
-            <Numerology />
-            <TarrotCard />
-        </div>
+        <>
+            <section className=''>
+                <div className="container mx-auto px-3 sm:px-6 md:px-12 lg:px-16 ">
+                    <ServiceHeader />
+                </div>
+            </section>
+            <section className=''>
+                <div className="container mx-auto px-3 sm:px-6 md:px-12 lg:px-16 ">
+                    <RaikiHeal />
+                </div>
+            </section>
+            <section className=''>
+                <div className="container mx-auto px-3 sm:px-6 md:px-12 lg:px-16 ">
+                    <Numerology />
+                </div>
+            </section>
+            <section className=''>
+                <div className="container mx-auto px-3 sm:px-6 md:px-12 lg:px-16 ">
+                    <TarrotCard />
+                </div>
+            </section>
+        </>
     )
 }
 

@@ -8,11 +8,31 @@ import Statement from '../components/About/Statement'
 const About = () => {
     return (
         <>
-            <Hero />
-            <Myabout />
-            <Journey />
-            <Achievment />
-            <Statement />
+            <section className='bg-rect bg-cover bg-no-repeat'>
+                <div className="container mx-auto px-3 sm:px-6 md:px-12 lg:px-16 ">
+                    <Hero />
+                </div>
+            </section>
+            <section className=''>
+                <div className="container mx-auto px-3 sm:px-6 md:px-12 lg:px-16 ">
+                    <Myabout />
+                </div>
+            </section>
+            <section className=''>
+                <div className="container mx-auto px-3 sm:px-6 md:px-12 lg:px-16 ">
+                    <Journey />
+                </div>
+            </section>
+            <section className=''>
+                <div className="container mx-auto px-3 sm:px-6 md:px-12 lg:px-16 ">
+                    <Achievment />
+                </div>
+            </section>
+            <section className=''>
+                <div className="container mx-auto px-3 sm:px-6 md:px-12 lg:px-16 ">
+                    <Statement />
+                </div>
+            </section>
         </>
     )
 }

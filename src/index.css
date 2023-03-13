@@ -13,3 +13,8 @@
 body{
   overflow-x: hidden;
 }
+
+/* Swipper */
+.mySwiper .swiper-slide-next {
+  opacity: 0.6;
+}

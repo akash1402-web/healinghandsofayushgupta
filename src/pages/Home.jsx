@@ -6,22 +6,46 @@ import Service from '../components/Home/Service';
 import About from '../components/Home/About';
 import Testimonial from '../components/Home/Testimonial';
 import Publication from '../components/Home/Publication';
-// import MyCarousel1 from '../components/Home/MyCarousel1';
-import { MyCarousel } from '../components/Home/Carousel/MyCarousel';
 import OldCara from '../components/Home/Carousel/OldCara';
-
 
 const Home = () => {
     return (
         <>
-            <Hero />
-            {/* <MyCarousel /> */}
-            <OldCara />
-            <Cards />
-            <Service />
-            <About />
-            <Testimonial />
-            <Publication />
+            <section className='bg-rect bg-cover bg-no-repeat'>
+                <div className="container mx-auto px-3 sm:px-6 md:px-12 lg:px-16 ">
+                    <Hero />
+                </div>
+            </section>
+            <section>
+                <div className="conatiner mx-auto px-3 sm:px-6 md:px-12 lg:px-16">
+                    <OldCara />
+                </div>
+            </section>
+            <section>
+                <div className="container mx-auto px-3 sm:px-6 md:px-12 lg:px-16">
+                    <Cards />
+                </div>
+            </section>
+            <section>
+                <div className="container mx-auto px-3 sm:px-6 md:px-12 lg:px-16">
+                    <Service />
+                </div>
+            </section>
+            <section className='bg-rect bg-no-repeat bg-cover'>
+                <div className="container mx-auto px-3 sm:px-6 md:px-12 lg:px-16">
+                    <About />
+                </div>
+            </section>
+            <section>
+                <div className="container mx-auto px-3 sm:px-6 md:px-12 lg:px-16">
+                    <Testimonial />
+                </div>
+            </section>
+            <section>
+                <div className="container mx-auto px-3 sm:px-6 md:px-12 lg:px-16">
+                    <Publication />
+                </div>
+            </section>
         </>
     )
 }
