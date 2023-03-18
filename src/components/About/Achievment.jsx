@@ -12,7 +12,7 @@ import { Pagination } from "swiper";
 const Achievment = () => {
     return (
         <>
-            <div className='w-full px-[40px] mt-[180px] md:block hidden'>
+            <div className='w-full px-[40px] mt-[180px] lg:block hidden'>
                 <div className='text-4xl'>
                     Achivements
                 </div>
@@ -51,7 +51,7 @@ const Achievment = () => {
                 </div>
             </div>
 
-            <div className='md:hidden
+            <div className='lg:hidden
                  block px-[20px]'>
                 <h1 className='text-center font-[600px] text-2xl mt-[40px] mb-[10px]'>Achievements</h1>
                 <Swiper slidesPerView={1} grabCursor={2} className='mySwiper'
@@ -69,7 +69,7 @@ const Achievment = () => {
                     // }}
                     pagination={{
                         clickable: true,
-                        el: ".achivement-dots"
+                        el: ".achivement-dots",
                     }}
                     modules={[
                         Pagination
@@ -81,35 +81,44 @@ const Achievment = () => {
                 //     swiper.navigation.init();
                 //     swiper.navigation.update();
                 // }}
+                // style={{
+                //     "--swiper-pagination-color": "#8777D7",
+                //     "--swiper-pagination-bullet-inactive-color": "black",
+                //     "--swiper-pagination-bullet-active-color": "#8777D7",
+                //     "--swiper-pagination-bullet-inactive-opacity": "1",
+                //     "--swiper-pagination-bullet-size": "16px",
+                //     "--swiper-pagination-bullet-horizontal-gap": "6px"
+                // }}
+                // style={{ "swiper-pagination-bullet": "#8777D7" }}
                 >
 
                     <SwiperSlide>
                         <div className='flex justify-center'>
-                            <img src={certi} className='w-[244px] h-[226px]  rounded-lg object-cover' />
+                            <img src={certi} className='sm:w-[244px] md:w-[444px] sm:h-[226px] md:h-[426px] rounded-lg object-cover' />
                         </div>
                         <p className='w-full text-center'>Certificate of world’s youngest reiki therapist</p>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className='flex justify-center'>
-                            <img src={certi} className='w-[244px] h-[226px]  rounded-lg object-cover' />
+                            <img src={certi} className='sm:w-[244px] md:w-[444px] sm:h-[226px] md:h-[426px] rounded-lg object-cover' />
                         </div>
                         <p className='w-full text-center'>Certificate of world’s youngest reiki therapist</p>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className='flex justify-center'>
-                            <img src={certi} className='w-[244px] h-[226px]  rounded-lg object-cover' />
+                            <img src={certi} className='sm:w-[244px] md:w-[444px] sm:h-[226px] md:h-[426px]  rounded-lg object-cover' />
                         </div>
                         <p className='w-full text-center'>Certificate of world’s youngest reiki therapist</p>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className='flex justify-center'>
-                            <img src={certi} className='w-[244px] h-[226px]  rounded-lg object-cover' />
+                            <img src={certi} className='sm:w-[244px] md:w-[444px] sm:h-[226px] md:h-[426px] rounded-lg object-cover' />
                         </div>
                         <p className='w-full text-center'>Certificate of world’s youngest reiki therapist</p>
                     </SwiperSlide>
 
                 </Swiper>
-                <div className='achivement-dots mt-[10px] text-center'></div>
+                <div className='achivement-dots mt-[10px] text-center '></div>
             </div>
 
 
