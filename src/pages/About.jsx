@@ -18,7 +18,7 @@ const About = () => {
                     <Myabout />
                 </div>
             </section>
-            <section className=''>
+            <section className='lg:bg-about-journey-desktop bg-cover bg-no-repeat'>
                 <div className="container mx-auto px-3 sm:px-6 md:px-12 lg:px-16 ">
                     <Journey />
                 </div>
