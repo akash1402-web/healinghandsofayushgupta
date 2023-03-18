@@ -18,7 +18,7 @@ const Service = () => {
                     <RaikiHeal />
                 </div>
             </section>
-            <section className=''>
+            <section className='bg-rect bg-cover bg-no-repeat'>
                 <div className="container mx-auto px-3 sm:px-6 md:px-12 lg:px-16 ">
                     <Numerology />
                 </div>
