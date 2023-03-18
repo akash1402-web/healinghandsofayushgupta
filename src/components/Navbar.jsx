@@ -65,7 +65,7 @@ const Navbar = () => {
 
                         <div className="cursor-pointer" onClick={() => { setMenuOpen(!menuOpen) }}>
                             {
-                                menuOpen ? <GrClose size={20} /> : <GiHamburgerMenu size={20} />
+                                menuOpen ? <GrClose size={20} color="#8777D7" /> : <GiHamburgerMenu size={20} color="#8777D7" />
                             }
                         </div>
                         <ul className={menuOpen ? 'flex flex-col gap-4 text-sm absolute top-10 bg-[#F5F5F5] w-full left-0 p-[21px] shadow-lg' : 'hidden flex-col gap-4 h-20 text-sm absolute -bottom-80 bg-[#F5F5F5] w-full left-0 p-[21px] '}>
