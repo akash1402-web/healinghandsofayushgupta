@@ -4,9 +4,9 @@ import VerticalSlider from './VerticalSlider/VerticalSlider';
 
 const Journey = () => {
     return (
-        <div className='w-full md:px-[40px] md:mt-[80px] px-[20px] mt-[40px]'>
-            <VerticalSlider className="flex md:hidden " />
-            <div className='w-full md:flex hidden justify-between'>
+        <div className='w-full lg:px-[40px] lg:mt-[80px] px-[20px] mt-[40px]'>
+            <VerticalSlider className="flex lg:hidden" />
+            <div className='w-full lg:flex hidden justify-between'>
                 <div className='flex flex-col gap-16'>
                     <div className='text-4xl mt-[95px]'>Journey</div>
                     <div className='flex flex-col gap-20'>
