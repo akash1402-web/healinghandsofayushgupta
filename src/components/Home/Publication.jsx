@@ -35,7 +35,7 @@ const Publication = () => {
                 </div>
             </div>
 
-            <div className='flex items-center justify-between mt-5'>
+            <div className='flex items-center justify-between mt-[60px]'>
                 <h2 className='text-xl font-[600px] md:hidden block'>Blogs</h2>
                 <h2 className='text-[#8777D7] font-semibold text-lg md:hidden block'>Read All Blogs</h2>
             </div>
@@ -49,7 +49,7 @@ const Publication = () => {
                         <div>
                             <p className=' text-[#AFADB5] text-xs md:text-lg'>Pellentesque etiam blandit in tincidunt at donec. Eget ipsum .
                             </p>
-                            <a href="/blogs" className='text-[#8777D7] font-semibold'>Read more</a>
+                            <a href="/blogs" className='text-[#8777D7] font-semibold md:text-base text-xs'>Read more</a>
                         </div>
 
                         <p className='text-[#AFADB5] md:block hidden'>Friday, 1 April 2022</p>
@@ -63,7 +63,7 @@ const Publication = () => {
                         <div>
                             <p className=' text-[#AFADB5] text-xs md:text-lg'>Pellentesque etiam blandit in tincidunt at donec. Eget ipsum .
                             </p>
-                            <a href="/blogs" className='text-[#8777D7] font-semibold'>Read more</a>
+                            <a href="/blogs" className='text-[#8777D7] font-semibold md:text-base text-xs'>Read more</a>
                         </div>
                         <p className='text-[#AFADB5] md:block hidden'>Friday, 1 April 2022</p>
 
@@ -77,7 +77,7 @@ const Publication = () => {
                         <div>
                             <p className=' text-[#AFADB5] text-xs md:text-lg'>Pellentesque etiam blandit in tincidunt at donec. Eget ipsum .
                             </p>
-                            <a href="/blogs" className='text-[#8777D7] font-semibold'>Read more</a>
+                            <a href="/blogs" className='text-[#8777D7] font-semibold md:text-base text-xs'>Read more</a>
                         </div>
                         <p className='text-[#AFADB5] md:block hidden'>Friday, 1 April 2022</p>
                     </div>
