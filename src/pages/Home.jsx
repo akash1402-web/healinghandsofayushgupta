@@ -11,13 +11,13 @@ import OldCara from '../components/Home/Carousel/OldCara';
 const Home = () => {
     return (
         <>
-            <section className='bg-rect bg-cover bg-no-repeat'>
+            <section className='bg-rect bg-cover'>
                 <div className="container mx-auto px-3 sm:px-6 md:px-12 lg:px-16 ">
                     <Hero />
                 </div>
             </section>
             <section>
-                <div className="conatiner mx-auto px-3 sm:px-6 md:px-12 lg:px-16">
+                <div className="container mx-auto px-3 sm:px-6 md:px-12 lg:px-16">
                     <OldCara />
                 </div>
             </section>
@@ -31,7 +31,7 @@ const Home = () => {
                     <Service />
                 </div>
             </section>
-            <section className='bg-rect bg-no-repeat bg-cover'>
+            <section className='lg:bg-home-about-desktop bg-home-about-mobile bg-cover'>
                 <div className="container mx-auto px-3 sm:px-6 md:px-12 lg:px-16">
                     <About />
                 </div>
