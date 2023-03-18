@@ -33,8 +33,8 @@ const VerticalSlider = () => {
     ];
     return (
         <>
-            <h2 className='text-center md:hidden block font-[600px] text-2xl mt-[40px] mb-[30px]'>Journey</h2>
-            <div className="flex md:hidden items-center gap-[15px] overflow-x-hidden">
+            <h2 className='text-center lg:hidden block font-[600px] text-2xl mt-[40px] mb-[30px]'>Journey</h2>
+            <div className="flex lg:hidden items-center gap-[15px] overflow-x-hidden">
                 <div className="left-nav">
                     {arr.map((i, index) => (
                         <span
