@@ -18,3 +18,16 @@ body{
 .mySwiper .swiper-slide-next {
   opacity: 0.6;
 }
+.achivement-dots .swiper-pagination-bullet-active{
+  background-color: #8777D7 !important;
+  width:0.65rem;
+  height:0.65rem;
+  margin:0.50rem
+  }
+
+  .achivement-dots1 .swiper-pagination-bullet-active{
+    background-color: #8777D7 !important;
+    width:0.65rem;
+    height:0.65rem;
+    margin:0.50rem
+    }
