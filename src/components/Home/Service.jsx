@@ -4,6 +4,7 @@ import s1c2 from '../../Assets/s1c2.png';
 import s1c3 from '../../Assets/s1c3.png';
 import s1c4 from '../../Assets/s1c4.png';
 import ourservicecard from '../../Assets/mobileHomeService.png';
+import { redirect } from 'react-router-dom';
 
 const HoverComp = () => {
     return (
@@ -20,7 +21,7 @@ const Service = () => {
             <h1 className='text-center md:text-4xl font-[600px] text-2xl md:font-normal lg:hidden'>Our Services</h1>
             <div className='lg:flex flex-col hidden justify-between'>
                 <h2 className='text-[#282828] text-4xl'>Our Services</h2>
-                <p className='w-[546px] text-[#565A5C] my-2 '>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur condimentum augue sed tempor facilisis</p>
+                <p className='w-[546px] text-[#565A5C] my-2 '>To acquire self-control and overcome difficult periods, he preaches self-improvement and meditation.</p>
                 <button className='mt-[31px] cursor-pointer bg-[#282828] w-[191px] h-[50px] text-white font-bold px-[42px]py-[13px] rounded-lg'>Explore More</button>
                 <img src={s1c4} alt="yoga" className=' md:w-[590px] h-[314px] mt-[40px] rounded-md transition-all duration-500 hover:scale-110' />
             </div>
