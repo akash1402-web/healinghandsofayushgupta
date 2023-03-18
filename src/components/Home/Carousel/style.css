@@ -182,3 +182,6 @@ body {
 .swiper-pagination .swiper-pagination-bullet-active {
   background: var(--primary);
 }
+.achivement-dots1 .swiper-pagination-bullet-active{
+  background-color: #8777D7;
+}
