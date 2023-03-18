@@ -10,7 +10,14 @@ const About = () => {
             </div>
             <div className='flex flex-col gap-10 justify-center md:flex-1 md:mt-0 mt-5'>
                 <h1 className='text-center md:text-4xl font-[600px] text-2xl md:font-normal'>About</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur condimentum augue sed tempor facilisis. Vestibulum tristique dolor non fermentum facilisis. Ut id velit eu magna aliquam feugiat vel non purus. Nunc placerat quam Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur condimentum augue sed tempor facilisis. Vestibulum tristique dolor non fermentum facilisis. </p>
+                <div className='lg:text-start text-center'>
+                    <p>Ayush holds the title of the Youngest Reiki Healer in the World.</p>
+                    <p>Youngest Numerologist in the World as stated by Harvard World Records.</p>
+                    <p>India’s Youngest tarot Card Reader according to World Records India.</p>
+                    <p>Author of the renowned novel ‘Reiki’.</p>
+                    <p>Performed over 25000 Tarot card readings and used Reiki to heal over 700 people.</p>
+                </div>
+
                 <div className='flex justify-center'>
                     <img src={homeabout} alt="about-logo" className='md:mr-20 md:hidden block w-[194px] h-[225px]' />
                 </div>
