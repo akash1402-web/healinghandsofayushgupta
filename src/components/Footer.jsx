@@ -11,7 +11,7 @@ import email1 from '../Assets/email1.png';
 const Footer = () => {
     return (
         <>
-            <div className='w-full flex lg:flex-row lg:justify-around flex-col bg-[#282828] md:pt-[31px] md:pl-20 md:pr-5 mt-20 p-5'>
+            <div className='w-full flex lg:flex-row lg:justify-around flex-col bg-[#282828] md:pt-[31px] md:pl-20 md:pr-5 lg:mt-20 mt-[138px] p-5'>
                 <div className='flex-col my-auto'>
                     <div className='flex gap-2 items-center'>
                         <img src={logo}></img>
