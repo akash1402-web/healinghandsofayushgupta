@@ -8,6 +8,7 @@ import insta1 from '../Assets/insta1.png';
 import fb1 from '../Assets/fb1.png';
 import phone1 from '../Assets/phone1.png';
 import email1 from '../Assets/email1.png';
+import { Link } from 'react-router-dom';
 const Footer = () => {
     return (
         <>
@@ -31,11 +32,11 @@ const Footer = () => {
                     </div>
                     <div className='flex lg:flex-row flex-col mt-[35px] gap-2'>
                         <p>Phone :</p>
-                        <p>+91 1234567899</p>
+                        <p>+91 9987560606</p>
                     </div>
                     <div className='flex lg:flex-row flex-col mt-[44px] gap-2'>
                         <p>Email :</p>
-                        <p>xyz@gmail.com</p>
+                        <a href="mailto:info@healinghandsofaayushgupta.com"><p>Info@healinghandsofaayushgupta.com</p></a>
                     </div>
                     <center className='md:mt-[48px] text-[#FAFAFA] text-xs lg:block hidden'>Copyright © All rights reserved</center>
                 </div>
@@ -45,9 +46,9 @@ const Footer = () => {
                 <div className='flex-col text-2xl font-[600px] text-white lg:block hidden'>
                     Follow us on
                     <div className='flex justify-center gap-10 mt-[14px]'>
-                        <img src={twitter} alt="twitter-logo"></img>
-                        <img src={facebook} alt="facebook-logo"></img>
-                        <img src={instagram} alt="instagram-logo"></img>
+                        <a href="https://twitter.com/reikiayush"><img src={twitter} alt="twitter-logo"></img></a>
+                        <a href="https://facebook.com/reikimasterayush"><img src={facebook} alt="facebook-logo"></img></a>
+                        <a href="https://instagram.com/ayushguptareiki"><img src={instagram} alt="instagram-logo"></img></a>
                     </div>
                 </div>
 
@@ -55,16 +56,16 @@ const Footer = () => {
             </div>
             <div className='w-[100%] flex flex-col md:hidden gap-5 bg-[#1A1A1A] '>
                 <div className='flex gap-5 justify-center pt-[40px]'>
-                    <img src={twitter1} alt="twitter-logo" />
-                    <img src={fb1} alt="twitter-logo" />
-                    <img src={insta1} alt="twitter-logo" />
-                    <img src={phone1} alt="twitter-logo" />
+                    <a href="https://twitter.com/reikiayush"><img src={twitter1} alt="twitter-logo" /></a>
+                    <a href="https://facebook.com/reikimasterayush"><img src={fb1} alt="twitter-logo" /></a>
+                    <a href="https://instagram.com/ayushguptareiki"><img src={insta1} alt="twitter-logo" /></a>
+                    <a href="tel:+91 9987560606	"><img src={phone1} alt="twitter-logo" /></a>
                     <img src={email1} alt="twitter-logo" />
-                </div>
+                </div >
                 <div className='flex justify-center text-[#98A2B3] pb-[47px]'>
                     Copyright © All rights reserved
                 </div>
-            </div>
+            </div >
 
         </>
     )
