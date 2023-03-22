@@ -1,6 +1,7 @@
 import React from 'react';
 import tarrotheader from '../../Assets/tarrot-card-header.png';
 import tarrotservice from '../../Assets/tarrot-service.png';
+import ReactWhatsapp from 'react-whatsapp';
 
 const TarrotCard = () => {
     return (
@@ -39,9 +40,8 @@ const TarrotCard = () => {
                     <p className='md:leading-[40px] md:text-xl md-mt-[50px] md:block hidden'>If most of your chakras are working, your life is wonderful with a few hiccups here and there.
                     </p>
                     <div className='flex flex-col  items-center'>
-                        <h4 className='text-center md:mt-[283px] md:text-4xl md:leading-[46px] mt-[130px]'>Our Services</h4>
-                        <img src={tarrotservice} alt="img" className='md:mt-[60px] mt-[30px]'></img>
-                        <button className='px-[40px] py-[13px] mt-[60px] md:mb-[200px] bg-[#8777D7] w-max rounded-lg text-white font-bold'>Book an Appointment</button>
+
+                        <ReactWhatsapp number="+91 9987560606"><button className='px-[40px] py-[13px] mt-[60px] md:mb-[200px] bg-[#8777D7] w-max rounded-lg text-white font-bold'>Book an Appointment</button></ReactWhatsapp>
                     </div>
                 </div>
             </div>
