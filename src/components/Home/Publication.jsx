@@ -18,18 +18,18 @@ const Publication = () => {
                     Read My Blogs <FaArrowRight size={15} />
                 </a>
 
-                <a href="/blogs" className='text-[18px] text-[#8777D7] leading-[23.4px]  md:hidden block'>
+                <a href="https://www.amazon.in/Reiki-Bramhand-Urja-Rahasyamai-Chikitsa/dp/B097MFQMKD" className='text-[18px] text-[#8777D7] leading-[23.4px]  md:hidden block'>
                     Read My Book
                 </a>
 
                 <div className='flex md:flex-col gap-2 flex-col-reverse md:items-start items-center'>
-                    <a href="#" className='md:hidden'><button className='w-40 h-14 bg-[#8777D7]  rounded-lg text-white font-bold '>Buy Now</button></a>
+                    <a href="https://www.amazon.in/Reiki-Bramhand-Urja-Rahasyamai-Chikitsa/dp/B097MFQMKD" className='md:hidden'><button className='w-40 h-14 bg-[#8777D7]  rounded-lg text-white font-bold '>Buy Now</button></a>
 
                     <p className='md:text-[26px] font-[600px] leading-[33px] '>create cozy Dinning Room Vibes</p>
                     <div className='relative'>
                         <img src={publication} className='md:w-[582px] md:h-[637px] w-[234px] h-[256px] object-cover' alt="book-logo"></img>
                         <p className='absolute md:block hidden left-12 bottom-28 text-white'>Tips and Tricks</p>
-                        <a href="#" className='absolute left-10 bottom-10 hidden md:block'><button className='w-40 h-14  bg-[#FFFFFF33]/[20%]  rounded-lg text-white font-bold'>Buy Now</button></a>
+                        <a href="https://www.amazon.in/Reiki-Bramhand-Urja-Rahasyamai-Chikitsa/dp/B097MFQMKD" className='absolute left-10 bottom-10 hidden md:block'><button className='w-40 h-14  bg-[#FFFFFF33]/[20%]  rounded-lg text-white font-bold'>Buy Now</button></a>
                     </div>
 
                 </div>
