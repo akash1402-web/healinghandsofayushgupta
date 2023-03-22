@@ -25,43 +25,43 @@ const About = () => {
                     <div className='flex items-center md:gap-3'>
                         <img className='h-[40px] w-[40px]' src={a1} alt="about-card-img"></img>
                         <div className='flex md:flex-row flex-col'>
-                            <h3 className="md:text-4xl text-xl text-[#6F9FC2] font-bold">25+</h3>
-                            <p className='text-[#565A5C]'>Years Experience</p>
+                            <h3 className="md:text-4xl text-xl text-[#6F9FC2] font-bold">25k+</h3>
+                            <p className='text-[#565A5C] flex items-center'>Tarrot Card Readings</p>
                         </div>
 
                     </div>
                     <div className='flex items-center md:gap-3'>
                         <img className='h-[40px] w-[40px]' src={a1} alt="about-card-img"></img>
                         <div className='flex md:flex-row flex-col'>
-                            <h3 className="md:text-4xl text-xl text-[#6F9FC2] font-bold">25+</h3>
-                            <p className='text-[#565A5C]'>Years Experience</p>
+                            <h3 className="md:text-4xl text-xl text-[#6F9FC2] font-bold">700+</h3>
+                            <p className='text-[#565A5C] flex items-center'>Reiki Healed Cases</p>
                         </div>
 
                     </div>
                 </div>
-                <div className='flex items-center md:justify-between justify-around'>
+                <div className='flex items-center justify-center'>
                     <div className='flex items-center md:gap-3'>
+                        <img className='h-[40px] w-[40px]' src={a1} alt="about-card-img"></img>
+                        <div className='flex md:flex-row flex-col'>
+                            <h3 className="md:text-4xl text-xl text-[#6F9FC2] font-bold">100+</h3>
+                            <p className='text-[#565A5C] flex items-center'>People Changed their Name Spelling</p>
+                        </div>
+
+                    </div>
+                    {/* <div className='flex items-center md:gap-3'>
                         <img className='h-[40px] w-[40px]' src={a1} alt="about-card-img"></img>
                         <div className='flex md:flex-row flex-col'>
                             <h3 className="md:text-4xl text-xl text-[#6F9FC2] font-bold">25+</h3>
                             <p className='text-[#565A5C]'>Years Experience</p>
                         </div>
 
-                    </div>
-                    <div className='flex items-center md:gap-3'>
-                        <img className='h-[40px] w-[40px]' src={a1} alt="about-card-img"></img>
-                        <div className='flex md:flex-row flex-col'>
-                            <h3 className="md:text-4xl text-xl text-[#6F9FC2] font-bold">25+</h3>
-                            <p className='text-[#565A5C]'>Years Experience</p>
-                        </div>
-
-                    </div>
+                    </div> */}
                 </div>
                 <div className='flex justify-center'>
-                    <a className="md:block hidden"><button className='rounded-lg text-[#6F9FC2] bg-white  border-2 px-[20px] py-[9px] border-[#6F9FC2]'>Know more</button></a>
+                    <a className="md:block hidden" href="/about"><button className='rounded-lg text-[#6F9FC2] bg-white  border-2 px-[20px] py-[9px] border-[#6F9FC2]'>Know more</button></a>
                 </div>
 
-                <a className="md:hidden block"><button className='rounded-md text-white bg-[#6F9FC2]  border-2  py-[9px] border-[#6F9FC2] w-[100%]'>Know more</button></a>
+                <a className="md:hidden block" href="/about"><button className='rounded-md text-white bg-[#6F9FC2]  border-2  py-[9px] border-[#6F9FC2] w-[100%]'>Know more</button></a>
             </div>
         </div>
     )
