@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import { FaArrowLeft, FaArrowRight } from 'react-icons/fa';
 import TestimonialCard from './TestimonialCard';
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -14,6 +14,7 @@ SwiperCore.use(
 )
 
 const Testimonial = () => {
+    const [level, setLevel] = useState(0);
     const prevRef = useRef(null);
     const nextRef = useRef(null);
 
@@ -25,11 +26,11 @@ const Testimonial = () => {
                 <div className='lg:flex flex-col gap-5 hidden'>
                     <h3 className='text-4xl w-[280px] '>What our client has to say</h3>
                     <div className='flex gap-3 mt-[78px] items-center'>
-                        <button className="p-4 bg-[#8777D7] w-max rounded-lg text-white font-bold" ref={prevRef}><FaArrowLeft size={12} /></button>
-                        1/4
-                        <button className="p-4 bg-[#8777D7] w-max rounded-lg text-white font-bold " ref={nextRef}><FaArrowRight size={12} /></button>
+                        <button className="p-4 bg-[#8777D7] w-max rounded-lg text-white font-bold" ref={prevRef} onClick={() => setLevel(l => (l - 1) % 4)}><FaArrowLeft size={12} /></button>
+                        {level + 1}/4
+                        <button className="p-4 bg-[#8777D7] w-max rounded-lg text-white font-bold " ref={nextRef} onClick={() => setLevel(l => (l + 1) % 4)}><FaArrowRight size={12} /></button>
                     </div>
-                    <a href="#"><button className="px-[42px] py-[13px] bg-[#8777D7] w-max rounded-lg text-white font-bold">Read All</button></a>
+                    {/* <a href="#"><button className="px-[42px] py-[13px] bg-[#8777D7] w-max rounded-lg text-white font-bold">Read All</button></a> */}
                 </div>
 
                 <Swiper spaceBetween={20} slidesPerView={2} grabCursor={2} className='mySwiper '
