@@ -8,6 +8,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 
 import { Pagination } from "swiper";
+import ReactWhatsapp from 'react-whatsapp';
 
 const RaikiHeal = () => {
     return (
@@ -15,7 +16,7 @@ const RaikiHeal = () => {
             <div className="container mx-auto px-3 sm:px-6 md:px-12 lg:px-16 ">
                 <div className=''>
                     <div className=' mt-[36px]'>
-                        <h2 className='md:text-4xl font-400 md:leading-[80px] text-2xl'>Raiki Healing</h2>
+                        <h2 className='md:text-4xl font-400 md:leading-[80px] text-2xl'>Reiki Healing</h2>
                     </div>
                     <div className='flex justify-between'>
                         <div className='flex flex-col md:leading-[40px] md:text-xl md:w-[900px]  md:mt-[150px] items-center'>
@@ -94,9 +95,8 @@ const RaikiHeal = () => {
                     </div>
 
                     <div className='flex flex-col  items-center'>
-                        <h4 className='text-center md:mt-[283px] md:text-4xl md:leading-[46px] mt-[130px]'>Our Services</h4>
-                        <img src={tarrotservice} alt="img" className='md:mt-[60px] mt-[30px]'></img>
-                        <button className='px-[40px] py-[13px] mt-[60px] md:mb-[200px] bg-[#8777D7] w-max rounded-lg text-white font-bold'>Book an Appointment</button>
+
+                        <ReactWhatsapp number="+91 9987560606"><button className='px-[40px] py-[13px] mt-[60px] md:mb-[200px] bg-[#8777D7] w-max rounded-lg text-white font-bold'>Book an Appointment</button></ReactWhatsapp>
                     </div>
                 </div >
             </div>
