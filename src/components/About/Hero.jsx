@@ -1,5 +1,6 @@
 import React from 'react';
 import about1 from '../../Assets/about-h1.png';
+import aboutHeroAyush from '../../Assets/AboutImages/aboutHeroAyushNew.png';
 import { RiDoubleQuotesL, RiDoubleQuotesR } from 'react-icons/ri';
 
 const Hero = () => {
@@ -12,7 +13,8 @@ const Hero = () => {
                 <RiDoubleQuotesR size={35} className='text-[#8777D7] ml-auto lg:block hidden' />
                 <RiDoubleQuotesR size={25} className='text-[#8777D7] ml-auto lg:hidden block' />
             </div>
-            <img src={about1} alt="about-hero" className='mr-[200px] lg:block hidden' />
+            {/* <img src={about1} alt="about-hero" className='mr-[200px] lg:block hidden' /> */}
+            <img src={aboutHeroAyush} alt="about-hero" className='mr-[200px] lg:block hidden w-[267px] h-[365px]' />
 
         </div>
     )

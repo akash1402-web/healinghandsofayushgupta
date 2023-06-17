@@ -1,8 +1,7 @@
 import React, { useRef, useState } from 'react';
 import { FaArrowLeft, FaArrowRight } from 'react-icons/fa';
-import TestimonialCard from './TestimonialCard';
 import { Swiper, SwiperSlide } from 'swiper/react';
-
+import TestimonialCard from '../Home/TestimonialCard';
 import "swiper/css";
 import "swiper/css/pagination";
 import SwiperCore from 'swiper';
@@ -13,7 +12,7 @@ SwiperCore.use(
     [Navigation]
 )
 
-const Testimonial = () => {
+const RaikiHealTestimonial = () => {
     const [level, setLevel] = useState(0);
     const prevRef = useRef(null);
     const nextRef = useRef(null);
@@ -27,20 +26,20 @@ const Testimonial = () => {
         },
         {
             quote:
-                ' excellent healer and tarot card reader. He tries to understand the problem in Dept and helps understand the reason for the issue and also gives possible solutions. The healing sessions I took from him have benefited me a lot .',
-            author: 'Namratha D',
-            date: '23/5/2023',
-        },
-        {
-            quote:
-                ' It was amazing, Ayush bhai is like doctor of everything, it is like nothing is impossible for these guy. I suggest everyone to meet Ayush bhai at least one time in life and you will forget every problem of life.',
+                'It was amazing, Ayush bhai is like doctor of everything, it is like nothing is impossible for these guy. I suggest everyone to meet Ayush bhai at least one time in life and you will forget every problem of life.',
             author: 'Jatin',
-            date: '23/3/2023',
+            date: '23/5/2023',
         },
         {
             quote:
                 ' He is an amazing guy with an extra ordinary talent. He is somewhere savior of my papa`s life too during covid times. I really appreciate him for his selfless efforts ( miracles) by providing reiki healing to the needy one`s. Thank you is really not enough to express how grateful you `ve made us.',
             author: 'Manjari',
+            date: '23/3/2023',
+        },
+        {
+            quote:
+                ' Inspite of being young Ayush Gupta possesses incredible knowledge. He has a very thereauptic presence, he is available whenever you want his service and his reiki healing affects your mind and body in a very positive manner. I am grateful for his selfless services to my family',
+            author: 'Kranti Kulkarni',
             date: '23/1/2023',
         }
         // Add more testimonial objects as needed
@@ -150,4 +149,4 @@ const Testimonial = () => {
     )
 }
 
-export default Testimonial
+export default RaikiHealTestimonial

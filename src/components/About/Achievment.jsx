@@ -1,5 +1,10 @@
 import React from 'react';
-import certi from '../../Assets/certi.png';
+import certi1 from '../../Assets/Certificate/Certi1.jpg';
+import certi2 from '../../Assets/Certificate/Certi2.jpg';
+import certi3 from '../../Assets/Certificate/Certi3.PNG';
+import certi4 from '../../Assets/Certificate/Certi4.PNG';
+import certi5 from '../../Assets/Certificate/Certi5.PNG';
+import certi6 from '../../Assets/Certificate/Certi6.png';
 import { Swiper, SwiperSlide } from 'swiper/react';
 // Import Swiper styles
 import "swiper/css";
@@ -16,35 +21,35 @@ const Achievment = () => {
                 <div className='text-4xl'>
                     Achivements
                 </div>
-                <div className='flex flex-row flex-wrap gap-4 mx-[40px] justify-center'>
+                <div className='flex flex-row flex-wrap gap-4 mx-[40px] justify-center mt-5'>
                     <div className='flex-col flex w-[325px] '>
-                        <img src={certi} alt="certificate" className='w-full' />
-                        <p className='w-full text-center'>Certificate of world’s youngest reiki therapist</p>
+                        <img src={certi1} alt="certificate" className='w-full' />
+                        {/* <p className='w-full text-center'>Certificate of world’s youngest reiki therapist</p> */}
+                    </div>
+                    {/* <div className='flex-col flex w-[325px]'>
+                        <img src={certi2} alt="certificate" />
+                        <p className='w-full text-center'>Certificate of world’s youngest reiki therapist</p> 
+                    </div> */}
+                    <div className='flex-col flex w-[325px]'>
+                        <img src={certi3} alt="certificate" />
+                        {/* <p className='w-full text-center'>Certificate of world’s youngest reiki therapist</p> */}
                     </div>
                     <div className='flex-col flex w-[325px]'>
-                        <img src={certi} alt="certificate" />
-                        <p className='w-full text-center'>Certificate of world’s youngest reiki therapist</p>
+                        <img src={certi4} alt="certificate" />
+                        {/* <p className='w-full text-center'>Certificate of world’s youngest reiki therapist</p> */}
                     </div>
                     <div className='flex-col flex w-[325px]'>
-                        <img src={certi} alt="certificate" />
-                        <p className='w-full text-center'>Certificate of world’s youngest reiki therapist</p>
+                        <img src={certi5} alt="certificate" />
+                        {/* <p className='w-full text-center'>Certificate of world’s youngest reiki therapist</p> */}
                     </div>
                     <div className='flex-col flex w-[325px]'>
-                        <img src={certi} alt="certificate" />
-                        <p className='w-full text-center'>Certificate of world’s youngest reiki therapist</p>
+                        <img src={certi6} alt="certificate" />
+                        {/* <p className='w-full text-center'>Certificate of world’s youngest reiki therapist</p> */}
                     </div>
-                    <div className='flex-col flex w-[325px]'>
+                    {/* <div className='flex-col flex w-[325px]'>
                         <img src={certi} alt="certificate" />
-                        <p className='w-full text-center'>Certificate of world’s youngest reiki therapist</p>
-                    </div>
-                    <div className='flex-col flex w-[325px]'>
-                        <img src={certi} alt="certificate" />
-                        <p className='w-full text-center'>Certificate of world’s youngest reiki therapist</p>
-                    </div>
-                    <div className='flex-col flex w-[325px]'>
-                        <img src={certi} alt="certificate" />
-                        <p className='w-full text-center'>Certificate of world’s youngest reiki therapist</p>
-                    </div>
+                         <p className='w-full text-center'>Certificate of world’s youngest reiki therapist</p> 
+                    </div> */}
 
 
 
@@ -94,27 +99,27 @@ const Achievment = () => {
 
                     <SwiperSlide>
                         <div className='flex justify-center'>
-                            <img src={certi} className='sm:w-[244px] md:w-[444px] sm:h-[226px] md:h-[426px] rounded-lg object-cover' />
+                            <img src={certi1} className='sm:w-[244px] md:w-[444px] sm:h-[226px] md:h-[426px] rounded-lg object-cover' />
                         </div>
-                        <p className='w-full text-center'>Certificate of world’s youngest reiki therapist</p>
+                        {/* <p className='w-full text-center'>Certificate of world’s youngest reiki therapist</p> */}
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className='flex justify-center'>
-                            <img src={certi} className='sm:w-[244px] md:w-[444px] sm:h-[226px] md:h-[426px] rounded-lg object-cover' />
+                            <img src={certi6} className='sm:w-[244px] md:w-[444px] sm:h-[226px] md:h-[426px] rounded-lg object-cover' />
                         </div>
-                        <p className='w-full text-center'>Certificate of world’s youngest reiki therapist</p>
+                        {/* <p className='w-full text-center'>Certificate of world’s youngest reiki therapist</p> */}
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className='flex justify-center'>
-                            <img src={certi} className='sm:w-[244px] md:w-[444px] sm:h-[226px] md:h-[426px]  rounded-lg object-cover' />
+                            <img src={certi3} className='sm:w-[244px] md:w-[444px] sm:h-[226px] md:h-[426px]  rounded-lg object-cover' />
                         </div>
-                        <p className='w-full text-center'>Certificate of world’s youngest reiki therapist</p>
+                        {/* <p className='w-full text-center'>Certificate of world’s youngest reiki therapist</p> */}
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className='flex justify-center'>
-                            <img src={certi} className='sm:w-[244px] md:w-[444px] sm:h-[226px] md:h-[426px] rounded-lg object-cover' />
+                            <img src={certi4} className='sm:w-[244px] md:w-[444px] sm:h-[226px] md:h-[426px] rounded-lg object-cover' />
                         </div>
-                        <p className='w-full text-center'>Certificate of world’s youngest reiki therapist</p>
+                        {/* <p className='w-full text-center'>Certificate of world’s youngest reiki therapist</p> */}
                     </SwiperSlide>
 
                 </Swiper>

@@ -7,6 +7,7 @@ import About from '../components/Home/About';
 import Testimonial from '../components/Home/Testimonial';
 import Publication from '../components/Home/Publication';
 import OldCara from '../components/Home/Carousel/OldCara';
+import Banner from '../components/Home/Banner';
 
 const Home = () => {
     return (
@@ -17,8 +18,11 @@ const Home = () => {
                 </div>
             </section>
             <section>
-                <div className="container mx-auto px-3 sm:px-6 md:px-12 lg:px-16">
+                {/* <div className="container mx-auto px-3 sm:px-6 md:px-12 lg:px-16">
                     <OldCara />
+                </div> */}
+                <div className="container mx-auto px-3 sm:px-6 md:px-12 lg:px-16">
+                    <Banner />
                 </div>
             </section>
             <section>

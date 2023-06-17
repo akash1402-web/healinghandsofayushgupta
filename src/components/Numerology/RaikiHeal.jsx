@@ -1,6 +1,5 @@
 import React from 'react';
 import raikiheal from '../../Assets/raikiheal.png';
-import tarrotservice from '../../Assets/tarrot-service.png';
 import Chakra from './Chakra';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -9,6 +8,7 @@ import "swiper/css/pagination";
 
 import { Pagination } from "swiper";
 import ReactWhatsapp from 'react-whatsapp';
+import RaikiHealTestimonial from './RaikiHealTestimonial';
 
 const RaikiHeal = () => {
     return (
@@ -49,7 +49,7 @@ const RaikiHeal = () => {
                     </div>
 
                     <div className='md:hidden block px-[10px]'>
-                        <h1 className='text-center font-[600px] text-2xl mt-[40px] mb-[10px]'>Achievements</h1>
+                        <h1 className='text-center font-[600px] text-2xl mt-[40px] mb-[10px]'>Chakras</h1>
                         <Swiper slidesPerView={1} grabCursor={2} className='mySwiper'
                             loop={true}
                             pagination={{
@@ -63,32 +63,96 @@ const RaikiHeal = () => {
                         >
                             <SwiperSlide>
                                 <div className='flex justify-center bg-[#A497C8]/[0.13]'>
-                                    <p className='p-3'>The first level of your energy anatomy is the base chakra.This chakra is located at the base of your spine and its job is to look after the spine, hips, legs, feet, as well your physical body in general. It makes sure that you receive everything you needs to survive, i.e food, water, shelter.</p>
+                                    <p className='p-3'>A personalized session where a Reiki Channel works with one Recipent at a time, using a series of Meditative Points to channel Reiki energy to the Recipent. The session typically lasts around 60 to 90 minutes and can be done on a table or in a chair. The goal of the session is to promote balance and healing in all Prospects of Your Life, and You experience sensations such as warmth or tingling during the session. Overall, a Reiki one-on-one session can be a relaxing and rejuvenating experience, and can be beneficial for physical, emotional, or spiritual healing.</p>
                                 </div>
                                 <h4 className='w-full text-center mt-[28px]'>level 1</h4>
-                                <h4 className='w-full text-center'>Your Base Chakra</h4>
+                                <h4 className='w-full text-center'>Reiki one-on-one session</h4>
                             </SwiperSlide>
                             <SwiperSlide>
                                 <div className='flex justify-center bg-[#A497C8]/[0.13]'>
-                                    <p className='p-3'>The first level of your energy anatomy is the base chakra.This chakra is located at the base of your spine and its job is to look after the spine, hips, legs, feet, as well your physical body in general. It makes sure that you receive everything you needs to survive, i.e food, water, shelter.</p>
+                                    <p className='p-3'>This type of Reiki session focuses on balancing and clearing the body's chakras (energy centers), to promote overall health and well-being.</p>
                                 </div>
                                 <h4 className='w-full text-center mt-[28px]'>level 2</h4>
-                                <h4 className='w-full text-center'>Your Base Chakra</h4>
+                                <h4 className='w-full text-center'>Chakra Balancing Session</h4>
                             </SwiperSlide>
                             <SwiperSlide>
                                 <div className='flex justify-center bg-[#A497C8]/[0.13]'>
-                                    <p className='p-3'>The first level of your energy anatomy is the base chakra.This chakra is located at the base of your spine and its job is to look after the spine, hips, legs, feet, as well your physical body in general. It makes sure that you receive everything you needs to survive, i.e food, water, shelter.</p>
+                                    <p className='p-3'>In an emotional healing session, the practitioner uses Reiki energy to help the Recipents release negative emotions and traumas, and promote emotional healing.</p>
                                 </div>
                                 <h4 className='w-full text-center mt-[28px]'>level 3</h4>
-                                <h4 className='w-full text-center'>Your Base Chakra</h4>
+                                <h4 className='w-full text-center'>Emotional Healing Session</h4>
                             </SwiperSlide>
                             <SwiperSlide>
                                 <div className='flex justify-center bg-[#A497C8]/[0.13]'>
-                                    <p className='p-3'>The first level of your energy anatomy is the base chakra.This chakra is located at the base of your spine and its job is to look after the spine, hips, legs, feet, as well your physical body in general. It makes sure that you receive everything you needs to survive, i.e food, water, shelter.</p>
+                                    <p className='p-3'>Reiki can help heal past traumas, release negative emotions, and promote self-love and acceptance, which can lead to a more fulfilling personal and love life. It can also enhance communication and deepen connections with loved ones.</p>
                                 </div>
                                 <h4 className='w-full text-center mt-[28px]'>level 4</h4>
-                                <h4 className='w-full text-center'>Your Base Chakra</h4>
+                                <h4 className='w-full text-center'>Personal Life / Love Life Healing</h4>
                             </SwiperSlide>
+                            <SwiperSlide>
+                                <div className='flex justify-center bg-[#A497C8]/[0.13]'>
+                                    <p className='p-3'>Reiki can help heal past traumas, release negative emotions, and promote self-love and acceptance, which can lead to a more fulfilling personal and love life. It can also enhance communication and deepen connections with loved ones.</p>
+                                </div>
+                                <h4 className='w-full text-center mt-[28px]'>level 4</h4>
+                                <h4 className='w-full text-center'>Personal Life / Love Life Healing</h4>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <div className='flex justify-center bg-[#A497C8]/[0.13]'>
+                                    <p className='p-3'>Reiki can help heal past traumas, release negative emotions, and promote self-love and acceptance, which can lead to a more fulfilling personal and love life. It can also enhance communication and deepen connections with loved ones.</p>
+                                </div>
+                                <h4 className='w-full text-center mt-[28px]'>level 5</h4>
+                                <h4 className='w-full text-center'>Crystal Reiki Session</h4>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <div className='flex justify-center bg-[#A497C8]/[0.13]'>
+                                    <p className='p-3'>This type of Reiki session incorporates sound healing techniques, such as singing bowls or tuning forks, to enhance the healing effects of Reiki.</p>
+                                </div>
+                                <h4 className='w-full text-center mt-[28px]'>level 6</h4>
+                                <h4 className='w-full text-center'>Sound Healing Reiki Session</h4>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <div className='flex justify-center bg-[#A497C8]/[0.13]'>
+                                    <p className='p-3'>This type of Reiki session focuses on using Reiki energy to manifest desired outcomes, such as abundance or love.</p>
+                                </div>
+                                <h4 className='w-full text-center mt-[28px]'>level 7</h4>
+                                <h4 className='w-full text-center'>Reiki for Manifestation Session</h4>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <div className='flex justify-center bg-[#A497C8]/[0.13]'>
+                                    <p className='p-3'>In a Reiki for spiritual growth session, the practitioner uses Reiki energy to promote spiritual growth, awareness, and connection to the divine.</p>
+                                </div>
+                                <h4 className='w-full text-center mt-[28px]'>level 8</h4>
+                                <h4 className='w-full text-center'>Reiki for Spiritual Growth Session</h4>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <div className='flex justify-center bg-[#A497C8]/[0.13]'>
+                                    <p className='p-3'>An intuitive Reiki session involves the practitioner using their intuition to guide the session, based on the Recipents needs and energy.</p>
+                                </div>
+                                <h4 className='w-full text-center mt-[28px]'>level 9</h4>
+                                <h4 className='w-full text-center'>Intuitive Reiki Session</h4>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <div className='flex justify-center bg-[#A497C8]/[0.13]'>
+                                    <p className='p-3'>This type of Reiki session is used to provide healing and relaxation to animals from any illness, desease or Imbalances, and can be done in person or remotely.</p>
+                                </div>
+                                <h4 className='w-full text-center mt-[28px]'>level 10</h4>
+                                <h4 className='w-full text-center'>Animal Reiki Session</h4>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <div className='flex justify-center bg-[#A497C8]/[0.13]'>
+                                    <p className='p-3'>This type of Reiki session is done remotely, where the practitioner channels Reiki energy to the Recipents, who may be in another location.</p>
+                                </div>
+                                <h4 className='w-full text-center mt-[28px]'>level 11</h4>
+                                <h4 className='w-full text-center'>Distance Reiki Session</h4>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <div className='flex justify-center bg-[#A497C8]/[0.13]'>
+                                    <p className='p-3'>In a group Reiki session, several Recipents receive Reiki simultaneously, either in the same room or remotely. Anannt Oorja Safar Organize Group Reiki Sessions.</p>
+                                </div>
+                                <h4 className='w-full text-center mt-[28px]'>level 12</h4>
+                                <h4 className='w-full text-center'>Group Reiki Session</h4>
+                            </SwiperSlide>
+
 
                         </Swiper>
                         <div className='achivement-dots mt-[10px] text-center'></div>
@@ -96,8 +160,9 @@ const RaikiHeal = () => {
 
                     <div className='flex flex-col  items-center'>
 
-                        <ReactWhatsapp number="+91 9987560606"><button className='px-[40px] py-[13px] mt-[60px] md:mb-[200px] bg-[#8777D7] w-max rounded-lg text-white font-bold'>Book an Appointment</button></ReactWhatsapp>
+                        <ReactWhatsapp number="+91 9987560606"><button className='px-[40px] py-[13px] mt-[60px] bg-[#8777D7] w-max rounded-lg text-white font-bold'>Book an Appointment</button></ReactWhatsapp>
                     </div>
+                    <RaikiHealTestimonial />
                 </div >
             </div>
         </section>

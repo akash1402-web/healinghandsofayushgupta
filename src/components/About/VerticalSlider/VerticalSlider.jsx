@@ -8,27 +8,27 @@ const VerticalSlider = () => {
     const arr = [
         {
             index: 0,
-            title: "How we started? 0",
+            title: "How did this journey begin?",
             content:
-                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, quo nemo! Rerum quae fuga ipsum voluptate doloremque nostrum corrupti perspiciatis?",
+                "The spiritual journey started at the age of 7 when Ayush Gupta started doing Meditation. In a very short period of time Ayush started feeling a special connection with the energies. By the time he was 12 he started practicing Reiki.",
         },
         {
             index: 1,
-            title: "How we started? 1",
+            title: "Miracles and divine interventions along the way.",
             content:
-                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, quo nemo! Rerum quae fuga ipsum voluptate doloremque nostrum corrupti perspiciatis?",
+                "Ayush and his family realised that his mother had developed throat cancer, and it almost seemed like a divine intervention by the universal energies that Ayush had recently learned Reiki healing therapy through which he completely cured his mother’s cancer.",
         },
         {
             index: 2,
-            title: "How we started? 2",
+            title: "accomplishments made so far in the voyage.",
             content:
-                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, quo nemo! Rerum quae fuga ipsum voluptate doloremque nostrum corrupti perspiciatis?",
+                "In 2021 Ayush along with his Aarvika Gupta founded a spiritual organization through which they have organized “Anannt Oorja Safar”. During the pandemic Ayush provided Reiki healing to as many people as he could help, who were suffering from Covid-19. Now Ayush has implemented meditation curriculum in many schools across across India, Nepal and Dubai.",
         },
         {
             index: 3,
-            title: "How we started? 3",
+            title: "Our objectives and future vision.",
             content:
-                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, quo nemo! Rerum quae fuga ipsum voluptate doloremque nostrum corrupti perspiciatis?",
+                "Ayush Gupta believes in the ancient Indian philosophy of “वसुधैव कुटुंभकम्” which means that the world is our family, and he wants people of the world to be more mindful towards humans, animals and Mother Earth. He wants to propagate the idea of love and inclusiveness in the society so people can live a happier and healthier life where they’re more mindful of their actions. Ayush wants the younger generation to be more involved in spiritual growth so they grow up to be more self aware.",
         },
     ];
     return (
