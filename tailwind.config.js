@@ -15,6 +15,9 @@ module.exports = {
         'about-journey-desktop': "url('Assets/S2.svg')",
         'about-journey-mobile': "url('Assets/EM2.svg')",
       },
+      // container: {
+      //   center: true,
+      // },
     }
     ,
   },
