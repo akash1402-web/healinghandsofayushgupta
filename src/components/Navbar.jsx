@@ -33,8 +33,10 @@ const Navbar = () => {
                                     Publication
                                     <BsChevronCompactDown />
                                 </div>
-
+                                {/* 
                                 <div className={dropdownOpen ? 'flex flex-col gap-3 text-[#263238] transition-all duration-100 z-100  bg-[#F8F7FB] left-0 absolute -bottom-20 pr-10 pl-3  py-3 shadow-lg rounded-lg' :
+                                    'hidden flex-col gap-3  text-[#263238] transition-all duration-100'} > */}
+                                <div className={dropdownOpen ? 'flex flex-col gap-3 text-[#263238] transition-all duration-100 z-100  bg-[#F8F7FB] left-0 absolute pr-10 pl-3  py-3 shadow-lg rounded-lg' :
                                     'hidden flex-col gap-3  text-[#263238] transition-all duration-100'} >
                                     <Link to={"/blogs"} onClick={() => {
                                         setActive("publication")
@@ -42,12 +44,13 @@ const Navbar = () => {
                                     }}>
                                         <div className='hover:text-navitem transition-all duration-100 cursor-pointer'>Blogs</div>
                                     </Link>
-                                    <Link to={"/books"} onClick={() => {
+                                    {/* <Link to={"/books"} onClick={(e) => {
+                                        e.preventDefault();
                                         setActive("publication")
                                         setdropdownOpen(false)
-                                    }}>
+                                    }} >
                                         <div className='hover:text-navitem transition-all duration-100 cursor-pointer'>Books</div>
-                                    </Link>
+                                    </Link> */}
                                 </div>
                             </li>
                             <Link to={"/gallery"} onClick={() => setActive("gallery")}>
@@ -95,13 +98,13 @@ const Navbar = () => {
                                     }}>
                                         <div className={active === "publication" ? 'hover:text-navitem transition-all duration-100 cursor-pointer text-navitem font-bold' : 'hover:text-navitem transition-all duration-100 cursor-pointer'}>Blogs</div>
                                     </Link>
-                                    <Link to={"/books"} onClick={() => {
+                                    {/* <Link to={"/books"} onClick={() => {
                                         setActive("publication")
                                         setdropdownOpen(false)
                                         setMenuOpen(false)
                                     }}>
                                         <div className={active === "publication" ? 'hover:text-navitem transition-all duration-100 cursor-pointer text-navitem font-bold' : 'hover:text-navitem transition-all duration-100 cursor-pointer'}>Books</div>
-                                    </Link>
+                                    </Link> */}
                                 </div>
                             </li>
                             <Link to={"/gallery"} onClick={() => {

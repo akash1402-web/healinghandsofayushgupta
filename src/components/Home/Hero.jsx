@@ -2,7 +2,7 @@ import React from 'react';
 import homeicon from "../../Assets/home-icon.png";
 import ourclient from "../../Assets/downArrowClient.png";
 import ReactWhatsapp from 'react-whatsapp';
-import { Link } from 'react-router-dom';
+
 
 
 const Hero = () => {
@@ -42,7 +42,7 @@ const Hero = () => {
                         Get insight into your future and seek answers to your concerns through numerology, reiki healing and Tarot card reading.
                         <p className='text-[#565A5C] font-semibold mt-[16px]'> Inspire us to be and do our very best.</p>
                     </p>
-                    <ReactWhatsapp number="+91 7984253100"><button className='px-[42px] py-[13px] bg-[#8777D7] w-max rounded-[12px] text-white font-bold md:mt-[16px] mx-auto lg:mx-0 mt-5'>Book Now</button></ReactWhatsapp>
+                    <ReactWhatsapp number="+91 9987560606"><button className='px-[42px] py-[13px] bg-[#8777D7] w-max rounded-[12px] text-white font-bold md:mt-[16px] mx-auto lg:mx-0 mt-5'>Book Now</button></ReactWhatsapp>
                 </div>
                 <img src={homeicon} alt="yoga logo" className='md:mr-20' />
             </section>

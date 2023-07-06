@@ -18,6 +18,42 @@ const Testimonial = () => {
     const prevRef = useRef(null);
     const nextRef = useRef(null);
 
+    const testimonials = [
+        {
+            quote:
+                ' I can`t thank you enough for the work you are doing on the planet. I am grateful for the time we have spent together. You have enriched my life, coming in just when I needed your gifts of Reiki. Thank you for being the enlightened soul you are.',
+            author: 'Deepti',
+            date: '23/12/2022',
+        },
+        {
+            quote:
+                ' excellent healer and tarot card reader. He tries to understand the problem in Dept and helps understand the reason for the issue and also gives possible solutions. The healing sessions I took from him have benefited me a lot .',
+            author: 'Namratha D',
+            date: '23/5/2023',
+        },
+        {
+            quote:
+                ' It was amazing, Ayush bhai is like doctor of everything, it is like nothing is impossible for these guy. I suggest everyone to meet Ayush bhai at least one time in life and you will forget every problem of life.',
+            author: 'Jatin',
+            date: '23/3/2023',
+        },
+        {
+            quote:
+                ' He is an amazing guy with an extra ordinary talent. He is somewhere savior of my papa`s life too during covid times. I really appreciate him for his selfless efforts ( miracles) by providing reiki healing to the needy one`s. Thank you is really not enough to express how grateful you `ve made us.',
+            author: 'Manjari',
+            date: '23/1/2023',
+        }
+        // Add more testimonial objects as needed
+    ];
+
+    const handleNext = () => {
+        setLevel((prevLevel) => (prevLevel + 1) % testimonials.length);
+    };
+
+    const handlePrev = () => {
+        setLevel((prevLevel) => (prevLevel - 1 + testimonials.length) % testimonials.length);
+    };
+
     return (
         <div id="client">
 
@@ -26,9 +62,9 @@ const Testimonial = () => {
                 <div className='lg:flex flex-col gap-5 hidden'>
                     <h3 className='text-4xl w-[280px] '>What our client has to say</h3>
                     <div className='flex gap-3 mt-[78px] items-center'>
-                        <button className="p-4 bg-[#8777D7] w-max rounded-lg text-white font-bold" ref={prevRef} onClick={() => setLevel(l => (l - 1) % 4)}><FaArrowLeft size={12} /></button>
+                        <button className="p-4 bg-[#8777D7] w-max rounded-lg text-white font-bold" ref={prevRef} onClick={handlePrev}><FaArrowLeft size={12} /></button>
                         {level + 1}/4
-                        <button className="p-4 bg-[#8777D7] w-max rounded-lg text-white font-bold " ref={nextRef} onClick={() => setLevel(l => (l + 1) % 4)}><FaArrowRight size={12} /></button>
+                        <button className="p-4 bg-[#8777D7] w-max rounded-lg text-white font-bold " ref={nextRef} onClick={handleNext}><FaArrowRight size={12} /></button>
                     </div>
                     {/* <a href="#"><button className="px-[42px] py-[13px] bg-[#8777D7] w-max rounded-lg text-white font-bold">Read All</button></a> */}
                 </div>
@@ -55,16 +91,16 @@ const Testimonial = () => {
                     }}>
 
                     <SwiperSlide>
-                        <TestimonialCard />
+                        <TestimonialCard testimonial={testimonials[(level + 0) % testimonials.length]} index={level} />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <TestimonialCard />
+                        <TestimonialCard testimonial={testimonials[(level + 1) % testimonials.length]} index={level + 1} />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <TestimonialCard />
+                        <TestimonialCard testimonial={testimonials[(level + 2) % testimonials.length]} index={level + 2} />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <TestimonialCard />
+                        <TestimonialCard testimonial={testimonials[(level + 3) % testimonials.length]} index={level + 3} />
                     </SwiperSlide>
 
                 </Swiper>
@@ -93,16 +129,16 @@ const Testimonial = () => {
                     }}>
 
                     <SwiperSlide>
-                        <TestimonialCard />
+                        <TestimonialCard testimonial={testimonials[(level + 0) % testimonials.length]} index={level} />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <TestimonialCard />
+                        <TestimonialCard testimonial={testimonials[(level + 1) % testimonials.length]} index={level + 1} />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <TestimonialCard />
+                        <TestimonialCard testimonial={testimonials[(level + 2) % testimonials.length]} index={level + 2} />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <TestimonialCard />
+                        <TestimonialCard testimonial={testimonials[(level + 3) % testimonials.length]} index={level + 3} />
                     </SwiperSlide>
 
                 </Swiper>

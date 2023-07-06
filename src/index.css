@@ -18,7 +18,7 @@ body{
 .mySwiper .swiper-slide-next {
   opacity: 0.6;
 }
-.achivement-dots .swiper-pagination-bullet-active{
+ .achivement-dots .swiper-pagination-bullet-active{
   background-color: #8777D7 !important;
   width:0.65rem;
   height:0.65rem;
@@ -31,3 +31,129 @@ body{
     height:0.65rem;
     margin:0.50rem
     }
+
+  /* Modal Pop-up */
+
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+ 
+  .modal-content {
+    background-color: #fefefe;
+    margin: 10% auto;
+    /* padding: 20px; */
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 600px;
+  }
+  
+  .modal-header {
+    /* padding: 15px; */
+    border-bottom: 1px solid #ddd;
+    background-color: #f7f7f7;
+  }
+  
+  /* .modal-body {
+    padding: 15px;
+  }
+   */
+  .modal-footer {
+    /* padding: 15px; */
+    border-top: 1px solid #ddd;
+    text-align: right;
+  }
+  
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  body.modal-open {
+    overflow: hidden;
+  }
+
+   /* body.active-modal {
+    overflow-y: hidden;
+}
+
+.btn-modal {
+    padding: 10px 20px;
+    display: block;
+    margin: 100px auto 0;
+    font-size: 18px;
+}
+
+.modal, .overlay {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+}
+
+.overlay {
+    background: rgba(49,49,49,0.8);
+}
+.modal-content {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 1.4;
+    background: #f1f1f1;
+    padding: 14px 28px;
+    border-radius: 3px;
+    max-width: 600px;
+    min-width: 300px;
+}
+
+.close-modal {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px 7px;
+} */
+
+
+
+/* DatePicker */
+.datepicker-placeholder {
+  color: #999;
+}
+@media screen and (max-width: 600px) {
+  .datepicker-input::-webkit-input-placeholder {
+    color: #999;
+    opacity: 1;
+  }
+  .datepicker-input:-moz-placeholder {
+    color: #999;
+    opacity: 1;
+  }
+  .datepicker-input::-moz-placeholder {
+    color: #999;
+    opacity: 1;
+  }
+  .datepicker-input:-ms-input-placeholder {
+    color: #999;
+    opacity: 1;
+  }
+}

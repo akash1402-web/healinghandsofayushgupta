@@ -54,13 +54,13 @@ const Footer = () => {
 
 
             </div>
-            <div className='w-[100%] flex flex-col md:hidden gap-5 bg-[#1A1A1A] '>
+            <div className='w-[100%] flex flex-col lg:hidden gap-5 bg-[#1A1A1A] '>
                 <div className='flex gap-5 justify-center pt-[40px]'>
                     <a href="https://twitter.com/reikiayush"><img src={twitter1} alt="twitter-logo" /></a>
-                    <a href="https://facebook.com/reikimasterayush"><img src={fb1} alt="twitter-logo" /></a>
-                    <a href="https://instagram.com/ayushguptareiki"><img src={insta1} alt="twitter-logo" /></a>
+                    <a href="https://facebook.com/reikimasterayush"><img src={fb1} alt="faccebook-logo" /></a>
+                    <a href="https://instagram.com/ayushguptareiki"><img src={insta1} alt="instagram-logo" /></a>
                     <a href="tel:+91 9987560606	"><img src={phone1} alt="twitter-logo" /></a>
-                    <img src={email1} alt="twitter-logo" />
+                    <img src={email1} alt="email-logo" />
                 </div >
                 <div className='flex justify-center text-[#98A2B3] pb-[47px]'>
                     Copyright © All rights reserved
