@@ -10,7 +10,7 @@ const TarrotCard = () => {
                 <div className=''>
                     <div className='flex justify-between'>
                         <div className='flex flex-col'>
-                            <h2 className='md:text-4xl font-400 md:leading-[80px] md:mt-[45px] text-2xl mt-[58px]'>Tarrot Card Reading</h2>
+                            <h2 className='md:text-4xl font-400 md:leading-[80px] md:mt-[45px] text-2xl mt-[58px]'>Tarot Card Reading</h2>
                             <div className='flex justify-center md:hidden'>
                                 <img src={tarrotheader} alt="numerology-img" className='mt-[36px] h-[385px] w-[244px]' />
                             </div>
