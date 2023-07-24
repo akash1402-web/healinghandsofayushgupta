@@ -24,7 +24,7 @@ const Publication = () => {
                 <div className='flex md:flex-col gap-2 flex-col-reverse md:items-start items-center'>
                     <a href="https://www.amazon.in/Reiki-Bramhand-Urja-Rahasyamai-Chikitsa/dp/B097MFQMKD" className='md:hidden'><button className='w-40 h-14 bg-[#8777D7]  rounded-lg text-white font-bold '>Buy Now</button></a>
 
-                    <p className='md:text-[26px] font-[600px] leading-[33px] '>create cozy Dinning Room Vibes</p>
+                    {/* <p className='md:text-[26px] font-[600px] leading-[33px] '>create cozy Dinning Room Vibes</p> */}
                     <div className='relative'>
                         <img src={publication} className='md:w-[582px] md:h-[637px] w-[234px] h-[256px] object-cover' alt="book-logo"></img>
                         <p className='absolute md:block hidden left-12 bottom-28 text-white'>Tips and Tricks</p>
@@ -36,7 +36,7 @@ const Publication = () => {
 
             <div className='flex items-center justify-between mt-[60px]'>
                 <h2 className='text-xl font-[600px] md:hidden block'>Blogs</h2>
-                <h2 className='text-[#8777D7] font-semibold text-lg md:hidden block'>Read All Blogs</h2>
+                <h2 className='text-[#8777D7] font-semibold text-lg md:hidden block'><a href="/blogs">Read All Blogs</a></h2>
             </div>
 
             <div className='flex flex-col gap-2 items-center md:items-start md:flex-1 md:mt-0 mt-5'>
