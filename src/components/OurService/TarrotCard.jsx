@@ -6,10 +6,10 @@ const TarrotCard = () => {
     return (
         <div className='w-full lg:flex lg:justify-between  md:mt-[200px] mt-[100px]'>
             <img src={tarrotCard} alt="numerologylogo" className='lg:w-[545px] lg:h-[467px] lg:block hidden mr-[90px]' />
-            <h3 className='lg:hidden block font-[600px] text-2xl text-center sm:text-3xl sm:font-bold'>Tarrot Card Reading</h3>
+            <h3 className='lg:hidden block font-[600px] text-2xl text-center sm:text-3xl sm:font-bold'>Tarot Card Reading</h3>
 
             <div className='lg:block hidden'>
-                <h3 className='text-5xl font-bold '>Tarrot Card Reading</h3>
+                <h3 className='text-5xl font-bold '>Tarot Card Reading</h3>
                 <p className='w-[670px] mt-[20px] font-sans text-xl'>We can not deny the significance of numbers in our life. Every person’s name is associated with such numbers and numerology is the science that helps us synchronizing our Root number, Soul urge number and destiny number with our Name, and Date of birth. Vibrations of certain numbers are favorable similarly vibrations of certain numbers are unfavorable , which determines our destiny and fortune and correcting these numbers balance these vibrations and energies make us more efficient and helps us become the best version of ourselves.
                 </p>
                 <Link to="/tarrotcard"><button className='px-[40px] py-[13px] bg-[#8777D7] w-max rounded-lg text-white font-bold lg:mt-[69px] mx-auto lg:mx-0 mt-5'>See More</button></Link>
