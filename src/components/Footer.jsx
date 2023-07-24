@@ -16,9 +16,9 @@ const Footer = () => {
                 <div className='flex-col my-auto'>
                     <div className='flex gap-2 items-center'>
                         <img src={logo}></img>
-                        <p className='md:text-white text-[#8777D7] md:text-2xl w-[144px] text-[18px] '>Ayush Gupta</p>
+                        <p className='md:text-white text-[#8777D7] md:text-lg w-[200px] text-[18px] '>Healing Hands of Ayush</p>
                     </div>
-                    <p className='md:text-[#FFD982] text-[#EAECF0] md:ml-[30px] ml-[45px]'>The Raiki center</p>
+                    <p className='md:text-[#FFD982] text-[#EAECF0] md:ml-[30px] ml-[45px]'>The Reiki center</p>
 
                 </div>
                 <div className='md:w-[2px] w-[74px] h-[200px] lg:block hidden bg-[#ABB8C3]'>
@@ -26,17 +26,17 @@ const Footer = () => {
                 </div>
                 <div className='flex text-white flex-col md:mt[31px] mt-[19px]'>
                     <h1 className='md:text-2xl  font-[600px] text-[16px]'>Contact us</h1>
-                    <div className='flex lg:flex-row flex-col mt-[9px] gap-2'>
+                    {/* <div className='flex lg:flex-row flex-col mt-[9px] gap-2'>
                         <p>Address :</p>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur condimentum augue sed tempor facilisis</p>
-                    </div>
+                    </div> */}
                     <div className='flex lg:flex-row flex-col mt-[35px] gap-2'>
                         <p>Phone :</p>
                         <p>+91 9987560606</p>
                     </div>
                     <div className='flex lg:flex-row flex-col mt-[44px] gap-2'>
                         <p>Email :</p>
-                        <a href="mailto:info@healinghandsofaayushgupta.com"><p>Info@healinghandsofaayushgupta.com</p></a>
+                        <a href="mailto:info@healinghandsofayush.com"><p>Info@healinghandsofayush.com</p></a>
                     </div>
                     <center className='md:mt-[48px] text-[#FAFAFA] text-xs lg:block hidden'>Copyright © All rights reserved</center>
                 </div>
