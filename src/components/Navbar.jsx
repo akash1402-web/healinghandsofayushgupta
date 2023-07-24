@@ -16,7 +16,7 @@ const Navbar = () => {
             <div className='container mx-auto px-3 sm:px-6 md:px-12 lg:px-16'>
                 <nav className='flex justify-between items-center h-[68px] text-black z-100'>
                     <div className='hidden md:flex items-center gap-9'>
-                        <img src={logo} alt="logo" />
+                        <Link to={"/"}><img src={logo} alt="logo" /></Link>
                         <ul className='flex items-center gap-6 text-md'>
                             <Link to={"/"} onClick={() => setActive("home")}>
                                 <li className={active === "home" ? 'hover:text-navitem transition-all duration-100 cursor-pointer text-navitem border-b-2  border-navitem font-bold' : 'hover:text-navitem transition-all duration-100 cursor-pointer border-b-8-navitem'}>Home</li>
@@ -33,24 +33,23 @@ const Navbar = () => {
                                     Publication
                                     <BsChevronCompactDown />
                                 </div>
-                                {/* 
-                                <div className={dropdownOpen ? 'flex flex-col gap-3 text-[#263238] transition-all duration-100 z-100  bg-[#F8F7FB] left-0 absolute -bottom-20 pr-10 pl-3  py-3 shadow-lg rounded-lg' :
-                                    'hidden flex-col gap-3  text-[#263238] transition-all duration-100'} > */}
-                                <div className={dropdownOpen ? 'flex flex-col gap-3 text-[#263238] transition-all duration-100 z-100  bg-[#F8F7FB] left-0 absolute pr-10 pl-3  py-3 shadow-lg rounded-lg' :
-                                    'hidden flex-col gap-3  text-[#263238] transition-all duration-100'} >
+
+                                <div className={dropdownOpen ? 'flex flex-col gap-3 text-[#263238] transition-all duration-100 z-100  bg-[#F8F7FB] left-0 absolute -bottom-20 pr-10 pl-3  py-3 shadow-lg rounded-lg' : 'hidden flex-col gap-3  text-[#263238] transition-all duration-100'} >
+                                    {/* <div className={dropdownOpen ? 'flex flex-col gap-3 text-[#263238] transition-all duration-100 z-100  bg-[#F8F7FB] left-0 absolute pr-10 pl-3  py-3 shadow-lg rounded-lg' :
+                                    'hidden flex-col gap-3  text-[#263238] transition-all duration-100'} >*/}
                                     <Link to={"/blogs"} onClick={() => {
                                         setActive("publication")
                                         setdropdownOpen(false)
                                     }}>
                                         <div className='hover:text-navitem transition-all duration-100 cursor-pointer'>Blogs</div>
                                     </Link>
-                                    {/* <Link to={"/books"} onClick={(e) => {
-                                        e.preventDefault();
+                                    <Link to="https://www.amazon.in/Reiki-Bramhand-Urja-Rahasyamai-Chikitsa/dp/B097MFQMKD" onClick={() => {
                                         setActive("publication")
                                         setdropdownOpen(false)
+                                        setMenuOpen(false)
                                     }} >
                                         <div className='hover:text-navitem transition-all duration-100 cursor-pointer'>Books</div>
-                                    </Link> */}
+                                    </Link>
                                 </div>
                             </li>
                             <Link to={"/gallery"} onClick={() => setActive("gallery")}>
@@ -64,7 +63,7 @@ const Navbar = () => {
                     </div>
 
                     <div className='flex md:hidden justify-between w-full items-center relative px-[21px] gap-9 z-10  '>
-                        <img src={logo} alt="logo" />
+                        <Link to={"/"}><img src={logo} alt="logo" /></Link>
 
                         <div className="cursor-pointer" onClick={() => { setMenuOpen(!menuOpen) }}>
                             {
@@ -98,13 +97,14 @@ const Navbar = () => {
                                     }}>
                                         <div className={active === "publication" ? 'hover:text-navitem transition-all duration-100 cursor-pointer text-navitem font-bold' : 'hover:text-navitem transition-all duration-100 cursor-pointer'}>Blogs</div>
                                     </Link>
-                                    {/* <Link to={"/books"} onClick={() => {
+                                    <Link to="https://www.amazon.in/Reiki-Bramhand-Urja-Rahasyamai-Chikitsa/dp/B097MFQMKD" onClick={() => {
                                         setActive("publication")
                                         setdropdownOpen(false)
                                         setMenuOpen(false)
                                     }}>
-                                        <div className={active === "publication" ? 'hover:text-navitem transition-all duration-100 cursor-pointer text-navitem font-bold' : 'hover:text-navitem transition-all duration-100 cursor-pointer'}>Books</div>
-                                    </Link> */}
+                                        <div className={active === "publication" ? 'hover:text-navitem transition-all duration-100 cursor-pointer text-navitem font-bold' : 'hover:text-navitem transition-all duration-100 cursor-pointer'}>
+                                            Books</div>
+                                    </Link>
                                 </div>
                             </li>
                             <Link to={"/gallery"} onClick={() => {
