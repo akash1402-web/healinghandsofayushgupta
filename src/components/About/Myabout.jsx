@@ -1,7 +1,5 @@
 import React from 'react';
-import about2 from '../../Assets/about-h2.png';
-import about5 from '../../Assets/about3.png';
-import about6 from '../../Assets/about4.png';
+import about2 from '../../Assets/about-h2.jpg';
 
 const Myabout = () => {
     return (
