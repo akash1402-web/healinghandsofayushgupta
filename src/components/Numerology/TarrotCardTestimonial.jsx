@@ -133,7 +133,6 @@ const TarrotCardTestimonial = () => {
                 <div className='achivement-dots text-center'></div>
             </div>
 
-            <a><button className='w-[100%] h-[40px] rounded-md  bg-white  border-2 border-[#282828] mt-8  md:hidden hover:bg-navitem'>View All</button></a>
         </div>
     )
 }
