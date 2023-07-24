@@ -18,12 +18,12 @@ const Home = () => {
                 </div>
             </section>
             <section>
-                {/* <div className="container mx-auto px-3 sm:px-6 md:px-12 lg:px-16">
-                    <OldCara />
-                </div> */}
                 <div className="container mx-auto px-3 sm:px-6 md:px-12 lg:px-16">
-                    <Banner />
+                    <OldCara />
                 </div>
+                {/* <div className="container mx-auto px-3 sm:px-6 md:px-12 lg:px-16">
+                    <Banner />
+                </div> */}
             </section>
             <section>
                 <div className="container mx-auto px-3 sm:px-6 md:px-12 lg:px-16">
