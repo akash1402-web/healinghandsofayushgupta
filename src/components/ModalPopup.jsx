@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Modal from 'react-modal';
-import modalCard from '../Assets/Dummy card .png';
+import modalCard from '../Assets/Dummy card.png';
+import { IoCloseCircleOutline } from 'react-icons/io5';
 
 const ModalPopup = (isOpen) => {
     const [modalIsOpen, setModalIsOpen] = useState(false);
@@ -43,16 +44,17 @@ const ModalPopup = (isOpen) => {
                         transform: 'translate(-50%, -50%)',
                         overflow: 'hidden',
                         position: 'relative',
-                        width: modalWidth
+                        width: modalWidth,
+                        padding: 0
                     }
                 }}>
                     <img src={modalCard} onLoad={handleImgLoad} style={{ display: 'block', width: 'auto', height: 'auto', maxHeight: 'calc(100vh - 120px)' }}></img>
                     <button onClick={closeModal} style={{
                         position: 'absolute', // Set the position to absolute
                         top: '0px', // Adjust the top property to position the button
-                        right: '10px', // Adjust the right property to position the button
+                        right: '0px', // Adjust the right property to position the button
                         zIndex: '1' // Add a higher z-index to the button to position it above the modal content
-                    }}>X</button>
+                    }}><IoCloseCircleOutline size={20} /></button>
                 </Modal>
             )}
         </>
