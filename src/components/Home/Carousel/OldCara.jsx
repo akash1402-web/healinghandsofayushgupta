@@ -164,11 +164,11 @@ import { FaArrowLeft, FaArrowRight } from 'react-icons/fa';
 import "swiper/css";
 import "swiper/css/pagination";
 
-import Img1 from '../../../Assets/img1.png';
-import Img2 from '../../../Assets/img2.png';
-import Img3 from '../../../Assets/img3.png';
-import Img4 from '../../../Assets/img4.png';
-import Img5 from '../../../Assets/img5.png';
+import Img1 from '../../../Assets/thumbnails/aboutChakraThumbnail.jpg';
+import Img2 from '../../../Assets/thumbnails/noMedicationThumbnail.jpg';
+import Img3 from '../../../Assets/Banner/banner1.jpg';
+import Img4 from '../../../Assets/thumbnails/raikiHealThumbnail.jpg';
+import Img5 from '../../../Assets/thumbnails/taroCard2Thumbnail.jpg';
 
 import ActiveDot from '../../../Assets/ActiveDot.svg';
 import InactiveDot from '../../../Assets/InactiveDot.svg';
@@ -260,7 +260,7 @@ const OldCara = () => {
             </div>
             <div className='md:hidden
                  block px-[20px]'>
-                <h1 className='text-center font-[600px] text-2xl mt-[40px] mb-[10px]'>Customer Stories</h1>
+                <h1 className='text-center font-[600px] text-2xl mt-[40px] mb-[10px]'>Stories</h1>
                 <Swiper slidesPerView={1} grabCursor={2} className='mySwiper'
 
                     loop={true}
